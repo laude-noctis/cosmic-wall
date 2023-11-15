@@ -76,7 +76,7 @@ function writeToFile("README.md", data) {
     ${questions}`
 
     fs.wrtiefile(README.md, data, (err) =>
-    err ? console.log(err) : console.log('Successfully created index.html!')
+    err ? console.log(err) : console.log("Successfully created readme!")
   );
 };
 
