@@ -1,0 +1,22 @@
+{
+  "name": "cosmic-wall",
+  "version": "1.0.0",
+  "description": "README generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laude-noctis/cosmic-wall.git"
+  },
+  "author": "Lizzie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laude-noctis/cosmic-wall/issues"
+  },
+  "homepage": "https://github.com/laude-noctis/cosmic-wall#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
