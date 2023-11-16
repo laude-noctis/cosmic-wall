@@ -47,6 +47,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license === "MIT License") {
     return "[MIT License](https://opensource.org/licenses/MIT)";
+
   } else if (license === "Apache License 2.0") {
     return "[Apache License 2.0](https://opensource.org/license/apache-2-0/)";
 
@@ -88,7 +89,58 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  
+  switch (license) {
+    case "MIT License":
+      return `## License
+
+      This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).`;
+    case "Apache License 2.0":
+      return `## License
+
+      This project is licensed under the [Apache License 2.0](https://opensource.org/license/apache-2-0/).`;
+    case "GNU General Public License (GPL)":
+      return `## License
+
+      This project is licensed under the [GNU General Public License (GPL)](https://opensource.org/license/gpl-1-0/).`;
+    case "GNU Lesser General Public License (LGPL)":
+      return `## License
+
+      This project is licensed under the [GNU Lesser General Public License (LGPL)](https://opensource.org/license/lgpl-2-1/).`;
+    case "BSD 2-Clause License":
+      return `## License
+
+      This project is licensed under the [BSD 2-Clause License](https://opensource.org/license/bsdpluspatent/).`;
+    case "BSD 3-Clause License":
+      return `## License
+
+      This project is licensed under the [BSD 3-Clause License)](HEY YOU FIX ME).`;
+    case "Mozilla Public License 2.0":
+      return `## License
+
+      This project is licensed under the [Mozilla Public License 2.0](https://opensource.org/license/mpl-2-0/).`;
+    case "Creative Commons Attribution License":
+      return `## License
+
+      This project is licensed under the [Creative Commons Attribution License](HEY YOU FIX ME).`;
+    case "The Unlicense":
+      return `## License
+
+      This project is licensed under the [The Unlicense](https://opensource.org/license/unlicense/).`;
+    case "ISC License":
+      return `## License
+
+      This project is licensed under the [ISC License](https://opensource.org/license/isc-license-txt/).`;
+    case "Boost Software License 1.0":
+      return `## License
+
+      This project is licensed under the [Boost Software License 1.0](https://opensource.org/license/bsl-1-0/).`;
+    case "Eclipse Public License 2.0":
+      return `## License
+
+      This project is licensed under the [Eclipse Public License 2.0](https://opensource.org/license/epl-2-0/).`;
+    case "None":
+    return ` `;
+  }
 }
 
 // TODO: Create a function to generate markdown for README
