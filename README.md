@@ -1,7 +1,7 @@
-# Cosmic-Wall [![License: BSD 2-Clause License](https://img.shields.io/badge/License-BSD_2_Clause-yellow.svg)](https://opensource.org/license/bsdpluspatent/)
+# d [![License: MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-description
+d
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,25 +12,24 @@ description
 - [Questions](#questions)
 
 ## Installation
-install
+d
 
 ## Usage
-uasge
+d
 
 ## License
-BSD 2-Clause License
-## License
-
-      This project is licensed under the [BSD 2-Clause License](https://opensource.org/license/bsdpluspatent/). [BSD 2-Clause License](https://opensource.org/license/bsdpluspatent/)
+MIT License 
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). 
+[MIT License](https://opensource.org/licenses/MIT)
 
 ## Contributors
-me myslef and i
+d
 
 ## Tests
-u run
+d
 
 ## Questions
 For any questions, please contact me:
-Email: me
+Email: d
 
-GitHub: https://github.com/me again
+GitHub: https://github.com/d

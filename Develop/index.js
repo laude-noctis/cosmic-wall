@@ -87,8 +87,9 @@ ${installation}
 ${usage}
 
 ## License
-${license}
-${renderLicenseSection(license)} ${renderLicenseLink(license)}
+${license} 
+${renderLicenseSection(license)} 
+${renderLicenseLink(license)}
 
 ## Contributors
 ${contributing}
