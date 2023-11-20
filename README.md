@@ -1,7 +1,7 @@
-# m [![License: MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)]
+# Cosmic-Wall 
 
 ## Description
-m
+This application will take you through a questionaire for filling out a README on the command line. You will need to fill in each section with the desctiption necessary. For the license section, you will pick from a list that contains all the licesnes in Github.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,25 +12,25 @@ m
 - [Questions](#questions)
 
 ## Installation
-m
+To install, simply copy the repository code line of your choosing and clone it to your machine.
 
 ## Usage
-m
+Open the command line and run `node Develop/index.js`
 
 ## License
 
-MIT License
+None
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+ 
 
 ## Contributors
-m
+Lizzie (Owner)
 
 ## Tests
-m
+N/A
 
 ## Questions
 For any questions, please contact me:
-Email: m
+Email: lizzybumpers11@gmail.com
 
-GitHub: https://github.com/m
+GitHub: https://github.com/luade-noctis

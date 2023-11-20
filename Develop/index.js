@@ -95,7 +95,7 @@ ${contributing}
 ${tests}
 
 ## Questions
-For any questions, please contact me:
+For any questions, please contact me:  
 Email: ${email}
 
 GitHub: https://github.com/${github}
