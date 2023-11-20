@@ -1,7 +1,7 @@
-# d [![License: MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# m [![License: MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
 ## Description
-d
+m
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,24 +12,25 @@ d
 - [Questions](#questions)
 
 ## Installation
-d
+m
 
 ## Usage
-d
+m
 
 ## License
-MIT License 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). 
-[MIT License](https://opensource.org/licenses/MIT)
+
+MIT License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Contributors
-d
+m
 
 ## Tests
-d
+m
 
 ## Questions
 For any questions, please contact me:
-Email: d
+Email: m
 
-GitHub: https://github.com/d
+GitHub: https://github.com/m

@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const { generateMarkdown, renderLicenseBadge, renderLicenseLink, renderLicenseSection } = require("./utils/generateMarkdown.js");
+const { renderLicenseBadge, renderLicenseSection } = require("./utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -86,10 +86,7 @@ ${installation}
 ## Usage
 ${usage}
 
-## License
-${license} 
-${renderLicenseSection(license)} 
-${renderLicenseLink(license)}
+${renderLicenseSection(license)}
 
 ## Contributors
 ${contributing}
