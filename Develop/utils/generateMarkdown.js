@@ -61,7 +61,7 @@ function renderLicenseLink(license) {
     return "[BSD 2-Clause License](https://opensource.org/license/bsdpluspatent/)";
 
   } else if (license === "BSD 3-Clause License") {
-    return "[BSD 3-Clause License)](HEY YOU FIX ME)";
+    return "[BSD 3-Clause License](HEY YOU FIX ME)";
 
   } else if (license === "Mozilla Public License 2.0") {
     return "[Mozilla Public License 2.0](https://opensource.org/license/mpl-2-0/)";
