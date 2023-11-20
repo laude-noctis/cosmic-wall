@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require('./generateMarkdown');
+const { generateMarkdown, renderLicenseBadge, renderLicenseLink, renderLicenseSection } = require("./Develop/utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -67,7 +67,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 const generateREADME = ({ projectTitle, description, installation, usage, license, contributing, tests, email, github}) => 
-`# ${projectTitle}
+`# ${projectTitle} ${renderLicenseBadge}
 
 ## Description
 ${description}
@@ -88,6 +88,7 @@ ${usage}
 
 ## License
 ${license}
+${renderLicenseSection} ${renderLicenseLink}
 
 ## Contributors
 ${contributing}
